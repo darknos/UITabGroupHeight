@@ -26,6 +26,8 @@
 		24DD6CFA1134B3F500162E58 /* SuIpublisherTabGroupHeightModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DD6CF81134B3F500162E58 /* SuIpublisherTabGroupHeightModule.m */; };
 		24DE9E1111C5FE74003F90F6 /* SuIpublisherTabGroupHeightModuleAssets.h in Headers */ = {isa = PBXBuildFile; fileRef = 24DE9E0F11C5FE74003F90F6 /* SuIpublisherTabGroupHeightModuleAssets.h */; };
 		24DE9E1211C5FE74003F90F6 /* SuIpublisherTabGroupHeightModuleAssets.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DE9E1011C5FE74003F90F6 /* SuIpublisherTabGroupHeightModuleAssets.m */; };
+		84DFB4341CFC79E7007DFE2A /* TiUIListView+Editing.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DFB4321CFC79E7007DFE2A /* TiUIListView+Editing.m */; };
+		84DFB4351CFC79E7007DFE2A /* TiUIListView+Editing.h in Headers */ = {isa = PBXBuildFile; fileRef = 84DFB4331CFC79E7007DFE2A /* TiUIListView+Editing.h */; };
 		84EF3AA81CE3D5DB00815A1C /* UITabBar+Resize.h in Headers */ = {isa = PBXBuildFile; fileRef = 84EF3AA61CE3D5DB00815A1C /* UITabBar+Resize.h */; };
 		84EF3AA91CE3D5DB00815A1C /* UITabBar+Resize.m in Sources */ = {isa = PBXBuildFile; fileRef = 84EF3AA71CE3D5DB00815A1C /* UITabBar+Resize.m */; };
 		AA747D9F0F9514B9006C5449 /* SuIpublisherTabGroupHeight_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* SuIpublisherTabGroupHeight_Prefix.pch */; };
@@ -48,6 +50,8 @@
 		24DD6D1B1134B66800162E58 /* titanium.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = titanium.xcconfig; sourceTree = "<group>"; };
 		24DE9E0F11C5FE74003F90F6 /* SuIpublisherTabGroupHeightModuleAssets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SuIpublisherTabGroupHeightModuleAssets.h; path = Classes/SuIpublisherTabGroupHeightModuleAssets.h; sourceTree = "<group>"; };
 		24DE9E1011C5FE74003F90F6 /* SuIpublisherTabGroupHeightModuleAssets.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SuIpublisherTabGroupHeightModuleAssets.m; path = Classes/SuIpublisherTabGroupHeightModuleAssets.m; sourceTree = "<group>"; };
+		84DFB4321CFC79E7007DFE2A /* TiUIListView+Editing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "TiUIListView+Editing.m"; path = "Classes/TiUIListView+Editing.m"; sourceTree = "<group>"; };
+		84DFB4331CFC79E7007DFE2A /* TiUIListView+Editing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "TiUIListView+Editing.h"; path = "Classes/TiUIListView+Editing.h"; sourceTree = "<group>"; };
 		84EF3AA61CE3D5DB00815A1C /* UITabBar+Resize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UITabBar+Resize.h"; path = "Classes/UITabBar+Resize.h"; sourceTree = "<group>"; };
 		84EF3AA71CE3D5DB00815A1C /* UITabBar+Resize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UITabBar+Resize.m"; path = "Classes/UITabBar+Resize.m"; sourceTree = "<group>"; };
 		84EF3AB11CE3DE3900815A1C /* app.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = app.js; sourceTree = "<group>"; };
@@ -99,6 +103,8 @@
 			isa = PBXGroup;
 			children = (
 				84EF3AA61CE3D5DB00815A1C /* UITabBar+Resize.h */,
+				84DFB4321CFC79E7007DFE2A /* TiUIListView+Editing.m */,
+				84DFB4331CFC79E7007DFE2A /* TiUIListView+Editing.h */,
 				84EF3AA71CE3D5DB00815A1C /* UITabBar+Resize.m */,
 				24DE9E0F11C5FE74003F90F6 /* SuIpublisherTabGroupHeightModuleAssets.h */,
 				24DE9E1011C5FE74003F90F6 /* SuIpublisherTabGroupHeightModuleAssets.m */,
@@ -137,6 +143,7 @@
 				24DD6CF91134B3F500162E58 /* SuIpublisherTabGroupHeightModule.h in Headers */,
 				84EF3AA81CE3D5DB00815A1C /* UITabBar+Resize.h in Headers */,
 				24DE9E1111C5FE74003F90F6 /* SuIpublisherTabGroupHeightModuleAssets.h in Headers */,
+				84DFB4351CFC79E7007DFE2A /* TiUIListView+Editing.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,6 +219,7 @@
 			files = (
 				24DD6CFA1134B3F500162E58 /* SuIpublisherTabGroupHeightModule.m in Sources */,
 				84EF3AA91CE3D5DB00815A1C /* UITabBar+Resize.m in Sources */,
+				84DFB4341CFC79E7007DFE2A /* TiUIListView+Editing.m in Sources */,
 				24DE9E1211C5FE74003F90F6 /* SuIpublisherTabGroupHeightModuleAssets.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
